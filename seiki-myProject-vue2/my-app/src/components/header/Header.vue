@@ -6,7 +6,11 @@
         <h1>手と手整骨院</h1>
       </div>
       <div class="header-right-box">
-        <a href="#" class="header-right-box-button">ご予約はこちらから</a>
+        <a
+          href="https://tetotereservation.herokuapp.com/"
+          class="header-right-box-button"
+          >ご予約はこちらから</a
+        >
         <HeaderHamberger />
       </div>
     </div>

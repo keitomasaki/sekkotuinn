@@ -17,6 +17,11 @@ export default {
       Group2: Group2,
     };
   },
+  mounted() {
+    // let wh = window.innerHeight;
+    // let elem = document.getElementById("imgbox");
+    // elem.style.height = wh + "px";
+  },
 };
 </script>
 
@@ -41,5 +46,6 @@ export default {
   height: auto;
   max-width: 100%;
   max-height: 100%;
+  min-width: 100%;
 }
 </style>
