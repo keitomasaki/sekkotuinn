@@ -52,7 +52,7 @@ export default {
 #opening-hours-box {
   margin-top: 40px;
   height: calc(172px + 195 * (100vw - 320px) / 600);
-  height: auto;
+  width: 100%;
 }
 
 .opening-hours-title-box {
@@ -127,17 +127,17 @@ export default {
 .opening-hours-image-box {
   width: 100%;
   margin: 0 auto;
-  animation: opening-hours-image-box 2s ease forwards;
+  /* animation: opening-hours-image-box 2s ease forwards; */
 }
 
 @keyframes opening-hours-image-box {
   0% {
     opacity: 0;
-    margin-top: 10px;
+    margin-top: 80px;
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: 40px;
   }
 }
 
@@ -147,5 +147,6 @@ export default {
   max-width: 100%;
   max-height: 100%;
   margin-top: 40px;
+  animation: opening-hours-image-box 2s ease forwards;
 }
 </style>

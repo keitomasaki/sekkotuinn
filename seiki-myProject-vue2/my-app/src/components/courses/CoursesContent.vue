@@ -71,6 +71,10 @@ export default {
   margin-right: 8px;
 }
 
+.courses-content-box {
+  /* animation: test3 1.5s ease-out forwards; */
+}
+
 .courses-content-wrapper-box {
   width: 90%;
   margin: 0 auto;
@@ -81,7 +85,13 @@ export default {
   height: auto;
   display: flex;
   margin-top: 40px;
-  animation: test3 1.5s ease-out forwards;
+}
+
+.test:nth-child(1) {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 0px;
 }
 
 .test2 {
@@ -93,12 +103,12 @@ export default {
 
 @keyframes test3 {
   0% {
-    opacity: 0;
-    margin-top: 60px;
+    opacity: 1;
+    margin-top: 40px;
   }
   100% {
     opacity: 1;
-    margin-top: 40px;
+    margin-top: 0px;
   }
 }
 
@@ -109,7 +119,6 @@ export default {
   transform: translateX(-50%);
   width: 118px;
   height: auto;
-
   display: flex;
   align-items: center;
 }

@@ -80,6 +80,7 @@ export default {
 body {
   overflow: hidden;
   height: auto;
+  /* height: 10000px; */
 }
 
 /* safari用のcss*/

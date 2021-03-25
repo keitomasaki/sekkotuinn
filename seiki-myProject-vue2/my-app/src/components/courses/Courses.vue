@@ -5,7 +5,7 @@
       <h1 class="courses-title">Courses</h1>
     </div>
     <div v-scroll="handleScroll2">
-      <div v-if="data2">
+      <div class="box" :class="{ testbox: data2 }">
         <CoursesContent />
         <div>
           <CoursesImage />
@@ -133,6 +133,29 @@ export default {
   100% {
     left: 100%;
     width: 0;
+  }
+}
+
+.box {
+  opacity: 0;
+}
+
+.testbox {
+  width: 100%;
+  opacity: 0;
+  height: calc(396px + 369 * (100vw - 320px) / 1120);
+  animation: testbox 2.5s ease forwards;
+  margin-top: 40px;
+}
+
+@keyframes testbox {
+  0% {
+    margin-top: 80px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 40px;
+    opacity: 1;
   }
 }
 </style>

@@ -2,7 +2,9 @@
   <div>
     <div class="box">
       <div class="button-box">
-        <a href="#">ご予約はこちらから</a>
+        <a href="https://tetotereservation.herokuapp.com/"
+          >ご予約はこちらから</a
+        >
       </div>
     </div>
     <div class="Page-Btn" @click="scrollTop">

@@ -15,24 +15,24 @@
           <!-- 電話番号を押せるのはタブレットサイズ以上 -->
           <div class="contact-content-box">
             <a href="tel:042-407-5884" class="telLink">
-              <img class="image" :src="photo" alt="" />
+              <img class="image" :src="photo" alt="#" />
             </a>
           </div>
           <div class="contact-content-box">
             <a href="#">
-              <img class="image" :src="web" alt="" />
+              <img class="image" :src="web" alt="#" />
             </a>
           </div>
         </div>
         <div class="contact-content-wrapper-box" v-if="data2">
           <div class="contact-content-box">
             <a href="#">
-              <img class="image" :src="Instagram" alt="" />
+              <img class="image" :src="Instagram" alt="#" />
             </a>
           </div>
           <div class="contact-content-box">
             <a href="">
-              <img class="image" :src="LINE" alt="" />
+              <img class="image" :src="LINE" alt="#" />
             </a>
           </div>
         </div>
